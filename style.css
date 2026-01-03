@@ -1,0 +1,392 @@
+@font-face {
+    font-family: expressway;
+    src: url(./assets/fonts/expressway.ttf);
+}
+
+:root {
+    --bg: #ffffff;
+    --fg: #000000;
+    --grey: #808080;
+    --federalist: #9e63ff;
+    --jeffersonian: #0bae00;
+    --whig: #d27400;
+    --democrat: #008ffb;
+    --republican: #ff1300;
+    --chart: url("./assets/lchart.png")
+}
+
+:root.dark {
+    --bg: #202020;
+    --fg: #ffffff;
+    --chart: url("./assets/dchart.png")
+}
+
+* {
+    text-align: center;
+    font-family: expressway;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    user-select: none;
+    color: #000000;
+    line-height: 1.1;
+    word-break: normal;
+    text-shadow: -.5px -.5px 0 #fff, .5px -.5px 0 #fff, -.5px .5px 0 #fff, .5px .5px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    /*outline-offset: -1px;
+    outline: solid 1px #0f0 !important;
+    /*For wireframe kiddies*/
+}
+
+html,
+body {
+    width: 1425px;
+    height: 2400px;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    transition: background-color 0.2s ease, color 0.2s ease;
+    /*background-size: 25px 25px;
+    background-image:
+        linear-gradient(to right, #30303080 1px, transparent 1px),
+        linear-gradient(to bottom, #30303080 1px, transparent 1px);*/
+}
+
+body::after {
+    width: 1425px;
+    height: 2400px;
+    content: "";
+    /*background-image: var(--chart);*/
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    opacity: .15;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    width: 64px;
+    height: 48px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.theme-toggle input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.theme-toggle__icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: var(--fg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.theme-toggle:hover .theme-toggle__icon {
+    transform: scale(1.05);
+}
+
+.theme-toggle:active .theme-toggle__icon {
+    transform: scale(0.95);
+}
+
+.theme-toggle__icon::before {
+    content: "LIGHT";
+    font-size: 24px;
+    text-shadow: none;
+    color: var(--bg);
+}
+
+#themeToggle:checked+.theme-toggle__icon::before {
+    content: "DARK";
+}
+
+#title {
+    position: absolute;
+    top: 60px;
+    left: 380px;
+    font-size: 64px;
+    width: 640px;
+}
+
+#nodesLegend {
+    position: absolute;
+    top: 144px;
+    left: 416px;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+    z-index: 2;
+}
+
+.nodesLegend__line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    font-size: 24px;
+    width: 100%;
+}
+
+.nodesLegend__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 160px);
+    gap: 8px 0;
+}
+
+.nodeInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    width: 148px;
+}
+
+.nodeInfo__text {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 104px;
+    height: 36px;
+    text-align: left;
+}
+
+#eventsLegend {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 176px;
+    left: 1200px;
+    gap: 64px;
+    font-size: 16px;
+    z-index: 1;
+}
+
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+    width: 192px;
+    height: 240px;
+}
+
+.event__text {
+    font-size: 24px;
+}
+
+.event__image {
+    width: 192px;
+    height: 128px;
+    border: solid 2px var(--fg);
+    border-radius: 3px;
+}
+
+#chart {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.node {
+    position: absolute;
+}
+
+.node__text {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    z-index: 3;
+    width: 80px;
+}
+
+.node__shape {
+    display: block;
+    width: 32px;
+    height: 32px;
+    z-index: 2;
+}
+
+.node .node__shape {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.node__shape--grey {
+    background-color: var(--grey);
+}
+
+.node__shape--federalist {
+    background-color: var(--federalist);
+}
+
+.node__shape--jeffersonian {
+    background-color: var(--jeffersonian);
+}
+
+.node__shape--whig {
+    background-color: var(--whig);
+}
+
+.node__shape--democrat {
+    background-color: var(--democrat);
+}
+
+.node__shape--republican {
+    background-color: var(--republican);
+}
+
+.node__shape--ideology {
+    border-radius: 100%;
+    border: solid 2px var(--fg);
+}
+
+.node__shape--faction {
+    border: solid 2px var(--fg);
+    border-radius: 0.01px;
+}
+
+.node__shape--current {
+    border: solid 4px var(--fg);
+    border-radius: 8px;
+}
+
+.portrait__text {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, calc(-50% + 54px));
+    font-size: 16px;
+    z-index: 3;
+    width: 128px;
+}
+
+.portrait__shape {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 80px;
+    z-index: 2;
+    border-radius: 4px;
+    background-position: center;
+    background-size: cover;
+}
+
+.portrait__shape--grey {
+    border: solid 2px var(--grey);
+}
+
+.portrait__shape--federalist {
+    border: solid 2px var(--federalist);
+}
+
+.portrait__shape--jeffersonian {
+    border: solid 2px var(--jeffersonian);
+}
+
+.portrait__shape--whig {
+    border: solid 2px var(--whig);
+}
+
+.portrait__shape--democrat {
+    border: solid 2px var(--democrat);
+}
+
+.portrait__shape--republican {
+    border: solid 2px var(--republican);
+}
+
+#arrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: visible;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.arrow {
+    stroke-width: 2;
+    stroke: var(--grey);
+}
+
+.arrow--federalist {
+    stroke: var(--federalist);
+}
+
+.arrow--jeffersonian {
+    stroke: var(--jeffersonian);
+}
+
+.arrow--whig {
+    stroke: var(--whig);
+}
+
+.arrow--democrat {
+    stroke: var(--democrat);
+}
+
+.arrow--republican {
+    stroke: var(--republican);
+}
+
+.arrow__text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    white-space: normal;
+    pointer-events: none;
+    font-size: 16px;
+}
+
+.arrowhead {
+    fill: var(--grey);
+}
+
+.arrowhead--federalist {
+    fill: var(--federalist);
+}
+
+.arrowhead--jeffersonian {
+    fill: var(--jeffersonian);
+}
+
+.arrowhead--whig {
+    fill: var(--whig);
+}
+
+.arrowhead--democrat {
+    fill: var(--democrat);
+}
+
+.arrowhead--republican {
+    fill: var(--republican);
+}

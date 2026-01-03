@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/logos/icon.png">
+    <title>USChart</title>
+    <meta property="og:site_name" content="quark88.github.io/uschart">
+    <meta property="og:title" content="USChart">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Interactive flowchart of american political history.">
+    <meta property="og:url" content="https://quark88.github.io/uschart">
+    <meta property="og:image" content="https://quark88.github.io/uschart/assets/logos/embed.png">
+    <meta name="theme-color" content="#00a0ff" data-react-helmet="true">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <label class="theme-toggle">
+        <input type="checkbox" id="themeToggle">
+        <span class="theme-toggle__icon"></span>
+    </label>
+    <section id="title">American Political History</section>
+    <section id="nodesLegend">
+        <div class="nodesLegend__line">
+            <h2>Colors:</h2>
+            <div class="nodesLegend__grid">
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Federalist_Party" target="_blank" title="Federalists">
+                    <div class="node__shape node__shape--federalist node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Federalists</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic-Republican_Party" target="_blank" title="Jeffersonians">
+                    <div class="node__shape node__shape--jeffersonian node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Jeffersonians</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Whig_Party_(United_States)" target="_blank" title="Whigs">
+                    <div class="node__shape node__shape--whig node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Whigs</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)" target="_blank" title="Democrats">
+                    <div class="node__shape node__shape--democrat node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Democrats</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)" target="_blank" title="Republicans">
+                    <div class="node__shape node__shape--republican node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Republicans</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Political_parties_in_the_United_States" target="_blank" title="Non-partisan or multi-partisan">
+                    <div class="node__shape node__shape--grey node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Non-partisan or multi-partisan</div>
+                </a>
+            </div>
+        </div>
+        <div class="nodesLegend__line">
+            <h2>Shapes:</h2>
+            <div class="nodesLegend__grid">
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Politics_of_the_United_States" target="_blank" title="Political Ideology">
+                    <div class="node__shape node__shape--grey node__shape--ideology"></div>
+                    <div class="nodeInfo__text">Political Ideology</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Historical_parties" target="_blank" title="Political Faction/Party">
+                    <div class="node__shape node__shape--grey node__shape--faction"></div>
+                    <div class="nodeInfo__text">Political Faction/Party</div>
+                </a>
+                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Active_parties" target="_blank" title="Current (2025) Faction/Party">
+                    <div class="node__shape node__shape--grey node__shape--current"></div>
+                    <div class="nodeInfo__text">Current (2025) Faction/Party</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="eventsLegend">
+        <h2>Approximate eras timeline</h2>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/rebellions-of-1837" target="_blank" title="Rebellions of 1837-1838">
+            <h2 class="event__text">The Revolutionary War</h2>
+            <img class="event__image" src="./assets/events/Revolutionary War.png">
+        </a>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/rebellions-of-1837" target="_blank" title="Rebellions of 1837-1838">
+            <h2 class="event__text">I Don't Really Know</h2>
+            <img class="event__image" src="./assets/events/idk.png">
+        </a>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/confederation" target="_blank" title="Confederation of Canada">
+            <h2 class="event__text">The Civil War</h2>
+            <img class="event__image" src="./assets/events/Civil War.png">
+        </a>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/first-world-war-wwi" target="_blank" title="The Great War">
+            <h2 class="event__text">The Gilded Age</h2>
+            <img class="event__image" src="./assets/events/Gilded Age.png">
+        </a>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/second-world-war-wwii" target="_blank" title="The Second World War">
+            <h2 class="event__text">The Second World War</h2>
+            <img class="event__image" src="./assets/events/WW2.png">
+        </a>
+        <a class="event" href="https://thecanadianencyclopedia.ca/en/article/cold-war" target="_blank" title="The Cold War">
+            <h2 class="event__text">The Cold War</h2>
+            <img class="event__image" src="./assets/events/Cold War.png">
+        </a>
+        <a class="event" href="https://en.wikipedia.org/wiki/Canada" target="_blank" title="Canada">
+            <h2 class="event__text">Contemporary America</h2>
+            <img class="event__image" src="./assets/events/Contemporary.png">
+        </a>
+    </section>
+    <section id="chart"></section>
+    <svg id="arrows"></svg>
+</body>
+<script src="./script.js"></script>
+
+</html>

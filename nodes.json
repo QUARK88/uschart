@@ -1,0 +1,1425 @@
+{
+    "Abolitionism/Free Soil": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Abolitionism_in_the_United_States",
+        275,
+        1025,
+        [
+            [
+                "Second Great Awakening",
+                ""
+            ]
+        ]
+    ],
+    "Alexander Hamilton": [
+        "fp",
+        "https://en.wikipedia.org/wiki/Alexander_Hamilton",
+        325,
+        475,
+        [
+            [
+                "Hamiltonianism",
+                ""
+            ]
+        ]
+    ],
+    "American Nativism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Nativism_in_United_States_politics",
+        350,
+        775,
+        [
+            []
+        ]
+    ],
+    "''American System'' Clayism": [
+        "wi",
+        "https://en.wikipedia.org/wiki/American_System_(economic_plan)",
+        625,
+        675,
+        [
+            [
+                "Jeffersonian Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Andrew Jackson": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Andrew_Jackson",
+        975,
+        700,
+        [
+            [
+                "Jacksonian Agrarian Populism",
+                ""
+            ]
+        ]
+    ],
+    "Anti-Communism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Anti-communism#United_States",
+        575,
+        1775,
+        []
+    ],
+    "Anti-Masonry": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Anti-Masonry",
+        400,
+        700,
+        [
+            [
+                "Second Great Awakening",
+                ""
+            ]
+        ]
+    ],
+    "Anti-Spoils System Reformism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Spoils_system#Reform",
+        575,
+        1125,
+        []
+    ],
+    "Barry Goldwater": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Barry_Goldwater",
+        375,
+        2000,
+        [
+            [
+                "Fusionist Conservatism",
+                ""
+            ]
+        ]
+    ],
+    "Benjamin Tillman": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Benjamin_Tillman",
+        875,
+        1500,
+        [
+            [
+                "White Supremacist Populism",
+                ""
+            ]
+        ]
+    ],
+    "Bernie Sanders": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Bernie_Sanders",
+        1075,
+        2275,
+        [
+            [
+                "Modern Progressivism",
+                ""
+            ],
+            [
+                "Progressive Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Bill Clinton": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Bill_Clinton",
+        650,
+        2275,
+        [
+            [
+                "Third Way Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Black Suffragism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Black_suffrage_in_the_United_States",
+        275,
+        1100,
+        [
+            [
+                "Abolitionism/Free Soil",
+                ""
+            ]
+        ]
+    ],
+    "Bourbon Democrats": [
+        "df",
+        "https://en.wikipedia.org/wiki/Bourbon_Democrat",
+        650,
+        1175,
+        [
+            [
+                "Anti-Spoils System Reformism",
+                ""
+            ],
+            [
+                "Democratic Party",
+                ""
+            ],
+            [
+                "Hard Money Conservatism",
+                ""
+            ],
+            [
+                "Southern Democrats",
+                "Planter Elites"
+            ]
+        ]
+    ],
+    "Bryanite Democrats": [
+        "df",
+        "https://en.wikipedia.org/wiki/William_Jennings_Bryan",
+        675,
+        1450,
+        [
+            [
+                "Evangelicalism",
+                "",
+                [
+                    400,
+                    1775
+                ]
+            ],
+            [
+                "Prairie Populism",
+                ""
+            ]
+        ]
+    ],
+    "Bull Moose Party": [
+        "nf",
+        "https://en.wikipedia.org/wiki/Bull_Moose_Party",
+        175,
+        1625,
+        [
+            [
+                "Lily-White Conservatism",
+                "Dominated the Party in the South"
+            ]
+        ]
+    ],
+    "Civil Rights Movement": [
+        "nf",
+        "https://en.wikipedia.org/wiki/Civil_rights_movement",
+        850,
+        1950,
+        []
+    ],
+    "Constitutionalist States' Rightsism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/States%27_rights#Controversy_to_1865",
+        725,
+        775,
+        [
+            [
+                "Jeffersonian Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Democratic Party": [
+        "df",
+        "",
+        850,
+        900,
+        [
+            [
+                "Constitutionalist States' Rightsism",
+                ""
+            ],
+            [
+                "Jacksonian Agrarian Populism",
+                ""
+            ],
+            [
+                "Jeffersonian Democracy",
+                "Major Ideological Influence",
+                [
+                    1050,
+                    575,
+                    1050,
+                    850
+                ]
+            ],
+            [
+                "Nullifier Party",
+                ""
+            ]
+        ]
+    ],
+    "Donald Trump": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Donald_Trump",
+        400,
+        2275,
+        [
+            [
+                "MAGA",
+                ""
+            ]
+        ]
+    ],
+    "Eastern Establishment Republicans": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Rockefeller_Republican",
+        500,
+        1800,
+        [
+            [
+                "Eastern Urban Progressivism",
+                ""
+            ]
+        ]
+    ],
+    "Eastern Urban Progressivism": [
+        "ri",
+        "",
+        425,
+        1650,
+        [
+            [
+                "Progressive Republicanism",
+                ""
+            ]
+        ]
+    ],
+    "Edmund Ruffin": [
+        "np",
+        "https://en.wikipedia.org/wiki/Edmund_Ruffin",
+        525,
+        900,
+        [
+            [
+                "Southern Secessionism",
+                ""
+            ]
+        ]
+    ],
+    "Evangelicalism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Evangelicalism_in_the_United_States",
+        175,
+        1800,
+        [
+            [
+                "Second Great Awakening",
+                "",
+                [
+                    100,
+                    1000,
+                    100,
+                    1600
+                ]
+            ]
+        ]
+    ],
+    "Federalist Party": [
+        "ff",
+        "https://en.wikipedia.org/wiki/Federalist_Party",
+        675,
+        450,
+        [
+            [
+                "Hamiltonianism",
+                ""
+            ],
+            [
+                "Lockean Anglo-Liberalism",
+                ""
+            ],
+            [
+                "Remnant Loyalist Conservatism",
+                ""
+            ]
+        ]
+    ],
+    "Fusionist Conservatism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Fusionism",
+        475,
+        2025,
+        [
+            [
+                "Anti-Communism",
+                ""
+            ],
+            [
+                "Eastern Establishment Republicans",
+                ""
+            ],
+            [
+                "Libertarianism",
+                ""
+            ],
+            [
+                "Segregationists",
+                "Racial Conservatives Switching Post-1964",
+                [
+                    1050,
+                    1875,
+                    925,
+                    2075
+                ]
+            ]
+        ]
+    ],
+    "George Wallace": [
+        "dp",
+        "https://en.wikipedia.org/wiki/George_Wallace",
+        975,
+        1600,
+        [
+            [
+                "Segregationists",
+                ""
+            ]
+        ]
+    ],
+    "George Washington": [
+        "fp",
+        "https://en.wikipedia.org/wiki/George_Washington",
+        600,
+        525,
+        [
+            [
+                "Federalist Party",
+                ""
+            ]
+        ]
+    ],
+    "Grover Cleveland": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Grover_Cleveland",
+        650,
+        1300,
+        [
+            [
+                "Bourbon Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Half-Breed Republicans": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Half-Breeds_(politics)",
+        500,
+        1225,
+        [
+            [
+                "Liberal Republicans",
+                ""
+            ]
+        ]
+    ],
+    "Hamiltonianism": [
+        "fi",
+        "https://en.wikipedia.org/wiki/Hamiltonian_economic_program",
+        400,
+        400,
+        [
+            [
+                "Lockean Anglo-Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Hard Money Conservatism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Gold_standard#In_the_United_States",
+        500,
+        1325,
+        [
+            []
+        ]
+    ],
+    "Henry Clay": [
+        "wp",
+        "https://en.wikipedia.org/wiki/Henry_Clay",
+        525,
+        650,
+        [
+            [
+                "''American System'' Clayism",
+                ""
+            ],
+            [
+                "Whig Party",
+                ""
+            ]
+        ]
+    ],
+    "Hubert Humphrey": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Hubert_Humphrey",
+        825,
+        1850,
+        [
+            [
+                "Modern American Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Jacksonian Agrarian Populism": [
+        "di",
+        "https://en.wikipedia.org/wiki/Jacksonian_democracy",
+        925,
+        825,
+        [
+            [
+                "Jeffersonian Republican Party",
+                "",
+                [
+                    875,
+                    650
+                ]
+            ]
+        ]
+    ],
+    "Jeffersonian Democracy": [
+        "ji",
+        "https://en.wikipedia.org/wiki/Jeffersonian_democracy",
+        800,
+        425,
+        [
+            [
+                "Lockean Anglo-Liberalism",
+                ""
+            ],
+            [
+                "Radical-Continental Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Jeffersonian Republican Party": [
+        "jf",
+        "https://en.wikipedia.org/wiki/Democratic-Republican_Party",
+        750,
+        600,
+        [
+            [
+                "Federalist Party",
+                "Conservative Southern and Mid-Atlantic Elements"
+            ],
+            [
+                "Jeffersonian Democracy",
+                ""
+            ]
+        ]
+    ],
+    "John Calhoun": [
+        "np",
+        "https://en.wikipedia.org/wiki/John_C._Calhoun",
+        625,
+        750,
+        [
+            [
+                "Nullifier Party",
+                ""
+            ]
+        ]
+    ],
+    "John Randolph": [
+        "np",
+        "https://en.wikipedia.org/wiki/John_Randolph_of_Roanoke",
+        825,
+        700,
+        [
+            [
+                "Constitutionalist States' Rightsism",
+                ""
+            ]
+        ]
+    ],
+    "Know-Nothing Party": [
+        "nf",
+        "https://en.wikipedia.org/wiki/Know_Nothing",
+        375,
+        875,
+        [
+            [
+                "Abolitionism/Free Soil",
+                "Partial Influence in Northern Wing of the Party"
+            ],
+            [
+                "American Nativism",
+                ""
+            ],
+            [
+                "Whig Party",
+                "Slavery-Moderate Whigs"
+            ]
+        ]
+    ],
+    "Laborism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Labor_history_of_the_United_States",
+        875,
+        1725,
+        [
+            [
+                "Socialism",
+                ""
+            ]
+        ]
+    ],
+    "Liberal Republicans": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Liberal_Republican_Party_(United_States)",
+        475,
+        1150,
+        [
+            [
+                "Abolitionism/Free Soil",
+                ""
+            ],
+            [
+                "Anti-Spoils System Reformism",
+                ""
+            ],
+            [
+                "Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Libertarianism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Libertarianism_in_the_United_States",
+        400,
+        1850,
+        [
+            [
+                "Old Right Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "Lily-White Conservatism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Lily-white_movement",
+        175,
+        1500,
+        []
+    ],
+    "Lockean Anglo-Liberalism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Classical_liberalism",
+        675,
+        350,
+        []
+    ],
+    "Louis Brandeis": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Louis_Brandeis",
+        600,
+        1675,
+        [
+            [
+                "Wilsonian Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "MAGA": [
+        "rc",
+        "https://en.wikipedia.org/wiki/Make_America_Great_Again",
+        275,
+        2250,
+        [
+            [
+                "Modern American Conservatives",
+                ""
+            ],
+            [
+                "Right-Wing Populism",
+                ""
+            ],
+            [
+                "Tea Party Movement",
+                ""
+            ]
+        ]
+    ],
+    "Mainstream Liberal Democrats": [
+        "dc",
+        "https://en.wikipedia.org/wiki/New_Democrats_(United_States)",
+        875,
+        2175,
+        [
+            [
+                "Modern American Liberalism",
+                ""
+            ],
+            [
+                "New Left",
+                ""
+            ],
+            [
+                "Third Way Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "McKinleyite Conservatism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Presidency_of_William_McKinley",
+        375,
+        1375,
+        [
+            [
+                "Half-Breed Republicans",
+                ""
+            ],
+            [
+                "Hard Money Conservatism",
+                ""
+            ],
+            [
+                "Lily-White Conservatism",
+                "Rose to Prominence Under McKinley"
+            ]
+        ]
+    ],
+    "Modern American Conservatives": [
+        "rc",
+        "",
+        475,
+        2175,
+        [
+            [
+                "Fusionist Conservatism",
+                ""
+            ],
+            [
+                "Neoliberalism",
+                ""
+            ],
+            [
+                "Religious Right",
+                ""
+            ]
+        ]
+    ],
+    "Modern American Liberalism": [
+        "di",
+        "https://en.wikipedia.org/wiki/Modern_liberalism_in_the_United_States",
+        775,
+        2025,
+        [
+            [
+                "Civil Rights Movement",
+                ""
+            ],
+            [
+                "New Deal Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Modern Progressivism": [
+        "di",
+        "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#Contemporary_progressivism_in_the_21st_century",
+        1050,
+        2125,
+        [
+            [
+                "New Left",
+                ""
+            ]
+        ]
+    ],
+    "Nancy Pelosi": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Nancy_Pelosi",
+        950,
+        2275,
+        [
+            [
+                "Mainstream Liberal Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Neoconservatism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Neoconservatism",
+        600,
+        2100,
+        [
+            [
+                "Anti-Communism",
+                ""
+            ],
+            [
+                "Fusionist Conservatism",
+                ""
+            ],
+            [
+                "New Deal Liberalism",
+                "Hardline Anti-Communist Jews"
+            ]
+        ]
+    ],
+    "Neoliberalism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Neoliberalism#United_States",
+        575,
+        2200,
+        []
+    ],
+    "New Deal Coalition": [
+        "df",
+        "https://en.wikipedia.org/wiki/New_Deal_coalition",
+        700,
+        1650,
+        [
+            [
+                "Laborism",
+                ""
+            ],
+            [
+                "Segregationists",
+                "Majority Elements"
+            ],
+            [
+                "Wilsonian Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "New Deal Liberalism": [
+        "di",
+        "https://en.wikipedia.org/wiki/New_Deal",
+        725,
+        1825,
+        [
+            [
+                "New Deal Coalition",
+                ""
+            ]
+        ]
+    ],
+    "New England Statist Conservatism": [
+        "fi",
+        "https://en.wikipedia.org/wiki/Daniel_Webster",
+        425,
+        600,
+        [
+            [
+                "Federalist Party",
+                "Federalist Remnants",
+                [
+                    475,
+                    475
+                ]
+            ],
+            [
+                "Hamiltonianism",
+                ""
+            ]
+        ]
+    ],
+    "New Left": [
+        "ni",
+        "https://en.wikipedia.org/wiki/New_Left#Development_in_United_States",
+        875,
+        2025,
+        [
+            [
+                "Civil Rights Movement",
+                ""
+            ]
+        ]
+    ],
+    "Nullifier Party": [
+        "nf",
+        "https://en.wikipedia.org/wiki/Nullifier_Party",
+        600,
+        850,
+        [
+            [
+                "Constitutionalist States' Rightsism",
+                ""
+            ]
+        ]
+    ],
+    "Old Right Conservatives": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Old_Right_(United_States)",
+        375,
+        1725,
+        [
+            [
+                "Eastern Urban Progressivism",
+                ""
+            ],
+            [
+                "McKinleyite Conservatism",
+                "",
+                [
+                    200,
+                    1675,
+                    225,
+                    1775
+                ]
+            ],
+            [
+                "Western Rural Progressivism",
+                ""
+            ]
+        ]
+    ],
+    "Paleoconservatism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Paleoconservatism",
+        300,
+        1825,
+        [
+            [
+                "Old Right Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "Paleolibertarians": [
+        "rc",
+        "https://en.wikipedia.org/wiki/Paleolibertarianism",
+        275,
+        1925,
+        [
+            [
+                "Libertarianism",
+                ""
+            ],
+            [
+                "Paleoconservatism",
+                ""
+            ]
+        ]
+    ],
+    "Pat Robertson": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Pat_Robertson",
+        650,
+        1825,
+        [
+            [
+                "Religious Right",
+                ""
+            ]
+        ]
+    ],
+    "Paul Wolfowitz": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Paul_Wolfowitz",
+        700,
+        2125,
+        [
+            [
+                "Neoconservatism",
+                ""
+            ]
+        ]
+    ],
+    "Prairie Populism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Populist_Party_(United_States)",
+        925,
+        1350,
+        [
+            [
+                "Jacksonian Agrarian Populism",
+                ""
+            ]
+        ]
+    ],
+    "Progressive Democrats": [
+        "dc",
+        "https://en.wikipedia.org/wiki/Congressional_Progressive_Caucus",
+        975,
+        2175,
+        [
+            [
+                "Modern American Liberalism",
+                ""
+            ],
+            [
+                "Modern Progressivism",
+                ""
+            ],
+            [
+                "New Left",
+                ""
+            ],
+            [
+                "Socialism",
+                "",
+                [
+                    1025,
+                    2025
+                ]
+            ]
+        ]
+    ],
+    "Progressive Republicanism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/History_of_the_Republican_Party_(United_States)#McKinley_years:_1897%E2%80%931901",
+        375,
+        1500,
+        [
+            [
+                "Bull Moose Party",
+                ""
+            ],
+            [
+                "McKinleyite Conservatism",
+                ""
+            ],
+            [
+                "Progressivism",
+                ""
+            ]
+        ]
+    ],
+    "Progressivism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
+        575,
+        1400,
+        [
+            [
+                "Anti-Spoils System Reformism",
+                ""
+            ],
+            [
+                "Bryanite Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Radical-Continental Liberalism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Classical_radicalism",
+        850,
+        350,
+        []
+    ],
+    "Radical Republicans": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Radical_Republicans",
+        350,
+        1175,
+        [
+            [
+                "Abolitionism/Free Soil",
+                ""
+            ],
+            [
+                "Black Suffragism",
+                ""
+            ],
+            [
+                "Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Redeemer Democrats": [
+        "df",
+        "https://en.wikipedia.org/wiki/Redeemers",
+        725,
+        1000,
+        [
+            [
+                "Democratic Party",
+                ""
+            ],
+            [
+                "Southern Secessionism",
+                ""
+            ]
+        ]
+    ],
+    "Religious Right": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Christian_right#Institutions_in_the_United_States",
+        550,
+        1975,
+        [
+            [
+                "Anti-Communism",
+                ""
+            ],
+            [
+                "Evangelicalism",
+                ""
+            ],
+            [
+                "Old Right Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "Remnant Loyalist Conservatism": [
+        "fi",
+        "https://en.wikipedia.org/wiki/Loyalist_(American_Revolution)",
+        600,
+        400,
+        []
+    ],
+    "Republican Party": [
+        "rf",
+        "",
+        425,
+        1000,
+        [
+            [
+                "Abolitionism/Free Soil",
+                ""
+            ],
+            [
+                "Democratic Party",
+                "Anti-Slavery (Minority)"
+            ],
+            [
+                "Know-Nothing Party",
+                ""
+            ],
+            [
+                "Whig Party",
+                ""
+            ]
+        ]
+    ],
+    "Right-Wing Populism": [
+        "ri",
+        "https://en.wikipedia.org/wiki/Right-wing_populism#United_States",
+        225,
+        2150,
+        []
+    ],
+    "Ronald Reagan": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Ronald_Reagan",
+        325,
+        2150,
+        [
+            [
+                "Modern American Conservatives",
+                ""
+            ]
+        ]
+    ],
+    "Ron Paul": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Ron_Paul",
+        175,
+        1975,
+        [
+            [
+                "Paleolibertarians",
+                ""
+            ]
+        ]
+    ],
+    "Roscoe Conkling": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Roscoe_Conkling",
+        225,
+        1200,
+        [
+            [
+                "Stalwart Republicans",
+                ""
+            ]
+        ]
+    ],
+    "Sarah Palin": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Sarah_Palin",
+        150,
+        2100,
+        [
+            [
+                "Tea Party Movement",
+                ""
+            ]
+        ]
+    ],
+    "Second Great Awakening": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Second_Great_Awakening",
+        200,
+        800,
+        []
+    ],
+    "Segregationists": [
+        "df",
+        "https://en.wikipedia.org/wiki/Dixiecrat",
+        850,
+        1600,
+        [
+            [
+                "White Supremacist Populism",
+                ""
+            ]
+        ]
+    ],
+    "Socialism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Socialism_in_the_United_States",
+        950,
+        1875,
+        []
+    ],
+    "Southern Democrats": [
+        "df",
+        "https://en.wikipedia.org/wiki/Southern_Democrats",
+        800,
+        1250,
+        [
+            [
+                "Redeemer Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Southern Secessionism": [
+        "ni",
+        "https://en.wikipedia.org/wiki/Secession_in_the_United_States#Seceded_states_form_the_Confederate_States_of_America",
+        675,
+        900,
+        [
+            [
+                "Constitutionalist States' Rightsism",
+                "Calhoun (Majority)"
+            ],
+            [
+                "Nullifier Party",
+                ""
+            ]
+        ]
+    ],
+    "Stalwart Republicans": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Stalwarts_(politics)",
+        375,
+        1250,
+        [
+            [
+                "Hard Money Conservatism",
+                ""
+            ],
+            [
+                "Radical Republicans",
+                ""
+            ]
+        ]
+    ],
+    "Tea Party Movement": [
+        "rf",
+        "https://en.wikipedia.org/wiki/Tea_Party_movement",
+        275,
+        2050,
+        [
+            [
+                "Libertarianism",
+                ""
+            ],
+            [
+                "Modern American Conservatives",
+                ""
+            ],
+            [
+                "Right-Wing Populism",
+                ""
+            ]
+        ]
+    ],
+    "Thaddeus Stevens": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Thaddeus_Stevens",
+        175,
+        1075,
+        [
+            [
+                "Black Suffragism",
+                ""
+            ],
+            [
+                "Radical Republicans",
+                ""
+            ]
+        ]
+    ],
+    "Third Way Liberalism": [
+        "df",
+        "https://en.wikipedia.org/wiki/Third_Way#United_States",
+        775,
+        2225,
+        [
+            [
+                "Modern American Liberalism",
+                ""
+            ],
+            [
+                "Neoliberalism",
+                ""
+            ]
+        ]
+    ],
+    "Theodore Roosevelt": [
+        "rp",
+        "https://en.wikipedia.org/wiki/Theodore_Roosevelt",
+        475,
+        1525,
+        [
+            [
+                "Eastern Urban Progressivism",
+                ""
+            ]
+        ]
+    ],
+    "Thomas Jefferson": [
+        "jp",
+        "https://en.wikipedia.org/wiki/Thomas_Jefferson",
+        875,
+        550,
+        [
+            [
+                "Jeffersonian Democracy",
+                ""
+            ],
+            [
+                "Jeffersonian Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Thomas Paine": [
+        "np",
+        "https://en.wikipedia.org/wiki/Thomas_Paine",
+        950,
+        400,
+        [
+            [
+                "Radical-Continental Liberalism",
+                ""
+            ]
+        ]
+    ],
+    "Wade Hampton III": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Wade_Hampton_III",
+        625,
+        1025,
+        [
+            [
+                "Redeemer Democrats",
+                ""
+            ]
+        ]
+    ],
+    "Western Rural Progressivism": [
+        "ri",
+        "",
+        350,
+        1600,
+        [
+            [
+                "Progressive Republicanism",
+                ""
+            ]
+        ]
+    ],
+    "Whig Party": [
+        "wf",
+        "https://en.wikipedia.org/wiki/Whig_Party_(United_States)",
+        500,
+        750,
+        [
+            [
+                "American Nativism",
+                ""
+            ],
+            [
+                "''American System'' Clayism",
+                ""
+            ],
+            [
+                "Anti-Masonry",
+                ""
+            ],
+            [
+                "New England Statist Conservatism",
+                ""
+            ],
+            [
+                "Nullifier Party",
+                ""
+            ]
+        ]
+    ],
+    "White Supremacist Populism": [
+        "di",
+        "https://en.wikipedia.org/wiki/White_supremacy#Early_history",
+        750,
+        1500,
+        [
+            [
+                "Prairie Populism",
+                ""
+            ],
+            [
+                "Southern Democrats",
+                "Poor Farmers and Working Class"
+            ]
+        ]
+    ],
+    "William Borah": [
+        "rp",
+        "https://en.wikipedia.org/wiki/William_Borah",
+        275,
+        1675,
+        [
+            [
+                "Western Rural Progressivism",
+                ""
+            ]
+        ]
+    ],
+    "William McKinley": [
+        "rp",
+        "https://en.wikipedia.org/wiki/William_McKinley",
+        275,
+        1325,
+        [
+            [
+                "McKinleyite Conservatism",
+                ""
+            ]
+        ]
+    ],
+    "Wilsonian Liberalism": [
+        "di",
+        "https://en.wikipedia.org/wiki/Wilsonianism",
+        625,
+        1575,
+        [
+            [
+                "Bryanite Democrats",
+                ""
+            ],
+            [
+                "Progressivism",
+                ""
+            ]
+        ]
+    ]
+}
