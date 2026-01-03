@@ -38,9 +38,15 @@
     /*For wireframe kiddies*/
 }
 
-html,
+html {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
 body {
-    width: 1425px;
+    position: relative;
+    width: 1450px;
     height: 2400px;
     z-index: 0;
     margin: 0;
@@ -51,23 +57,6 @@ body {
     background-image:
         linear-gradient(to right, #30303080 1px, transparent 1px),
         linear-gradient(to bottom, #30303080 1px, transparent 1px);*/
-}
-
-body::after {
-    width: 1425px;
-    height: 2400px;
-    content: "";
-    /*background-image: var(--chart);*/
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 0;
-    background-size: contain;
-    background-position: left;
-    background-repeat: no-repeat;
-    opacity: .15;
 }
 
 .theme-toggle {
@@ -118,10 +107,10 @@ body::after {
 
 #title {
     position: absolute;
-    top: 60px;
-    left: 380px;
+    top: 48px;
+    left: 272px;
     font-size: 64px;
-    width: 640px;
+    width: fit-content;
 }
 
 #nodesLegend {
@@ -176,11 +165,12 @@ body::after {
     position: absolute;
     display: flex;
     flex-direction: column;
-    top: 176px;
+    top: 112px;
     left: 1200px;
-    gap: 64px;
-    font-size: 16px;
-    z-index: 1;
+    gap: 112px;
+    font-size: 24px;
+    z-index: 2;
+    width: 192px;
 }
 
 .event {
@@ -190,7 +180,7 @@ body::after {
     justify-content: end;
     gap: 8px;
     width: 192px;
-    height: 240px;
+    height: 192px;
 }
 
 .event__text {
@@ -208,6 +198,8 @@ body::after {
     position: absolute;
     top: 0;
     left: 0;
+    width: 1450px;
+    height: 2400px;
 }
 
 .node {
@@ -326,7 +318,7 @@ body::after {
     z-index: 1;
     overflow: visible;
     inset: 0;
-    width: 100%;
+    width: 1450px;
     height: 100%;
 }
 

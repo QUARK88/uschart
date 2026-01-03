@@ -79,7 +79,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Spoils_system#Reform",
         575,
-        1125,
+        1075,
         []
     ],
     "Barry Goldwater": [
@@ -223,9 +223,9 @@
     ],
     "Democratic Party": [
         "df",
-        "",
-        850,
-        900,
+        "https://en.wikipedia.org/wiki/History_of_the_Democratic_Party_(United_States)#Foundation:_1820–1828",
+        825,
+        925,
         [
             [
                 "Constitutionalist States' Rightsism",
@@ -277,7 +277,7 @@
     ],
     "Eastern Urban Progressivism": [
         "ri",
-        "",
+        "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
         425,
         1650,
         [
@@ -688,7 +688,7 @@
     ],
     "Modern American Conservatives": [
         "rc",
-        "",
+        "https://en.wikipedia.org/wiki/History_of_conservatism_in_the_United_States#1980s:_Reagan_Era",
         475,
         2175,
         [
@@ -931,7 +931,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Populist_Party_(United_States)",
         925,
-        1350,
+        1375,
         [
             [
                 "Jacksonian Agrarian Populism",
@@ -1033,8 +1033,8 @@
     "Redeemer Democrats": [
         "df",
         "https://en.wikipedia.org/wiki/Redeemers",
-        725,
-        1000,
+        875,
+        1075,
         [
             [
                 "Democratic Party",
@@ -1075,9 +1075,9 @@
     ],
     "Republican Party": [
         "rf",
-        "",
+        "https://en.wikipedia.org/wiki/History_of_the_Republican_Party_(United_States)#Beginnings:_1854–1861",
         425,
-        1000,
+        1025,
         [
             [
                 "Abolitionism/Free Soil",
@@ -1194,7 +1194,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Secession_in_the_United_States#Seceded_states_form_the_Confederate_States_of_America",
         675,
-        900,
+        925,
         [
             [
                 "Constitutionalist States' Rightsism",
@@ -1317,8 +1317,8 @@
     "Wade Hampton III": [
         "dp",
         "https://en.wikipedia.org/wiki/Wade_Hampton_III",
-        625,
-        1025,
+        775,
+        1100,
         [
             [
                 "Redeemer Democrats",
@@ -1328,7 +1328,7 @@
     ],
     "Western Rural Progressivism": [
         "ri",
-        "",
+        "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
         350,
         1600,
         [
