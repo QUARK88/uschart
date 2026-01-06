@@ -30,18 +30,37 @@ fetch("./nodes.json")
 function renderNodes(data) {
     Object.entries(data).forEach(([name, node]) => {
         const type = node[TYPE]
+        const types = []
         const isPortrait = type[1] === "p"
+        const shape = document.createElement("a")
+        shape.classList.add(isPortrait ? "portrait__shape" : "node__shape")
+        switch (type[0]) {
+            case "f": shape.classList.add(isPortrait ? "portrait__shape--federalist" : "node__shape--federalist"); types.push("Federalist"); break
+            case "j": shape.classList.add(isPortrait ? "portrait__shape--jeffersonian" : "node__shape--jeffersonian"); types.push("Jeffersonian"); break
+            case "w": shape.classList.add(isPortrait ? "portrait__shape--whig" : "node__shape--whig"); types.push("Whig"); break
+            case "d": shape.classList.add(isPortrait ? "portrait__shape--democrat" : "node__shape--democrat"); types.push("Democratic"); break
+            case "r": shape.classList.add(isPortrait ? "portrait__shape--republican" : "node__shape--republican"); types.push("Republican"); break
+            case "n": shape.classList.add(isPortrait ? "portrait__shape--grey" : "node__shape--grey"); types.push("Non-/Multi-Partisan"); break
+        }
+        if (!isPortrait) {
+            switch (type[1]) {
+                case "i": shape.classList.add("node__shape--ideology"); types.push("Ideology"); break
+                case "f": shape.classList.add("node__shape--faction"); types.push("Faction/Party"); break
+                case "c": shape.classList.add("node__shape--current"); types.push("Current Faction/Party"); break
+            }
+        } else {
+            types.push("Figure")
+        }
+        title = `${name}\n\n${types[0]} ${types[1]}`
         const container = document.createElement("a")
         container.className = "node"
         container.style.left = node[X] + "px"
         container.style.top = node[Y] + "px"
-        container.title = name
+        container.title = title
         const text = document.createElement("a")
         text.className = isPortrait ? "portrait__text" : "node__text"
         text.textContent = name
-        text.title = name
-        const shape = document.createElement("a")
-        shape.classList.add(isPortrait ? "portrait__shape" : "node__shape")
+        text.title = title
         if (node[URL]) {
             text.href = node[URL]
             text.target = "_blank"
@@ -53,21 +72,6 @@ function renderNodes(data) {
                 `url("./assets/portraits/${encodeURIComponent(name)}.jpg")`
         } else if (name.length > 16) {
             text.style.width = name.length > 36 ? "128px" : "110px"
-        }
-        switch (type[0]) {
-            case "f": shape.classList.add(isPortrait ? "portrait__shape--federalist" : "node__shape--federalist"); break
-            case "j": shape.classList.add(isPortrait ? "portrait__shape--jeffersonian" : "node__shape--jeffersonian"); break
-            case "w": shape.classList.add(isPortrait ? "portrait__shape--whig" : "node__shape--whig"); break
-            case "d": shape.classList.add(isPortrait ? "portrait__shape--democrat" : "node__shape--democrat"); break
-            case "r": shape.classList.add(isPortrait ? "portrait__shape--republican" : "node__shape--republican"); break
-            case "n": shape.classList.add(isPortrait ? "portrait__shape--grey" : "node__shape--grey"); break
-        }
-        if (!isPortrait) {
-            switch (type[1]) {
-                case "i": shape.classList.add("node__shape--ideology"); break
-                case "f": shape.classList.add("node__shape--faction"); break
-                case "c": shape.classList.add("node__shape--current"); break
-            }
         }
         container.appendChild(text)
         container.appendChild(shape)
