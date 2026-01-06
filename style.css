@@ -190,8 +190,8 @@ body {
 .event__image {
     width: 192px;
     height: 128px;
-    border: solid 2px var(--fg);
-    border-radius: 3px;
+    border: solid 3px var(--fg);
+    border-radius: 6px;
 }
 
 #chart {
@@ -282,33 +282,33 @@ body {
     width: 64px;
     height: 80px;
     z-index: 3;
-    border-radius: 4px;
+    border-radius: 6px;
     background-position: center;
     background-size: cover;
 }
 
 .portrait__shape--grey {
-    border: solid 2px var(--grey);
+    border: solid 3px var(--grey);
 }
 
 .portrait__shape--federalist {
-    border: solid 2px var(--federalist);
+    border: solid 3px var(--federalist);
 }
 
 .portrait__shape--jeffersonian {
-    border: solid 2px var(--jeffersonian);
+    border: solid 3px var(--jeffersonian);
 }
 
 .portrait__shape--whig {
-    border: solid 2px var(--whig);
+    border: solid 3px var(--whig);
 }
 
 .portrait__shape--democrat {
-    border: solid 2px var(--democrat);
+    border: solid 3px var(--democrat);
 }
 
 .portrait__shape--republican {
-    border: solid 2px var(--republican);
+    border: solid 3px var(--republican);
 }
 
 #arrows {
