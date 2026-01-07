@@ -288,7 +288,7 @@
         ]
     ],
     "Edmund Ruffin": [
-        "np",
+        "dp",
         "https://en.wikipedia.org/wiki/Edmund_Ruffin",
         525,
         900,
@@ -380,7 +380,7 @@
         ]
     ],
     "George Washington": [
-        "fp",
+        "np",
         "https://en.wikipedia.org/wiki/George_Washington",
         600,
         525,
@@ -513,7 +513,7 @@
         ]
     ],
     "John Calhoun": [
-        "np",
+        "dp",
         "https://en.wikipedia.org/wiki/John_C._Calhoun",
         625,
         750,
@@ -525,7 +525,7 @@
         ]
     ],
     "John Randolph": [
-        "np",
+        "jp",
         "https://en.wikipedia.org/wiki/John_Randolph_of_Roanoke",
         825,
         700,
