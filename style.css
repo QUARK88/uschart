@@ -42,31 +42,24 @@ html {
     display: flex;
     align-items: start;
     justify-content: center;
+    background-color: var(--bg);
 }
 
-body {
-    position: relative;
-    width: 1450px;
-    height: 2400px;
-    z-index: 0;
-    margin: 0;
-    padding: 0;
-    background-color: var(--bg);
-    transition: background-color 0.2s ease, color 0.2s ease;
-    /*background-size: 25px 25px;
-    background-image:
-        linear-gradient(to right, #30303080 1px, transparent 1px),
-        linear-gradient(to bottom, #30303080 1px, transparent 1px);*/
+#controls {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    top: 16px;
+    left: 16px;
+    height: 48px;
+    z-index: 1000;
 }
 
 .theme-toggle {
-    position: fixed;
-    top: 16px;
-    left: 16px;
-    width: 64px;
     height: 48px;
+    width: 64px;
     cursor: pointer;
-    z-index: 1000;
 }
 
 .theme-toggle input {
@@ -103,6 +96,37 @@ body {
 
 #themeToggle:checked+.theme-toggle__icon::before {
     content: "DARK";
+}
+
+#zoomSlider {
+    appearance: none;
+    background-color: var(--grey);
+    height: 16px;
+    border-radius: 16px;
+    border: none;
+    width: 128px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#zoomSlider::-webkit-slider-thumb,
+#zoomSlider::-moz-range-thumb {
+    width: 16px;
+    height: 48px;
+    border-radius: 16px;
+    border: none;
+    background-color: var(--fg);
+}
+
+#zoomZone {
+    position: relative;
+    width: 1338px;
+    height: 1896px;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 #title {

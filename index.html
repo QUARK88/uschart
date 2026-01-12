@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="html">
 
 <head>
     <link rel="stylesheet" href="./style.css">
@@ -17,93 +17,98 @@
 </head>
 
 <body>
-    <label class="theme-toggle">
-        <input type="checkbox" id="themeToggle">
-        <span class="theme-toggle__icon"></span>
-    </label>
-    <section id="title">American Political History (1775-2025)</section>
-    <section id="nodesLegend">
-        <div class="nodesLegend__line">
-            <h2>Colors:</h2>
-            <div class="nodesLegend__grid">
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Federalist_Party" target="_blank" title="Federalists">
-                    <div class="node__shape node__shape--federalist node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Federalists</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic-Republican_Party" target="_blank" title="Jeffersonians">
-                    <div class="node__shape node__shape--jeffersonian node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Jeffersonians</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Whig_Party_(United_States)" target="_blank" title="Whigs">
-                    <div class="node__shape node__shape--whig node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Whigs</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)" target="_blank" title="Democrats">
-                    <div class="node__shape node__shape--democrat node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Democrats</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)" target="_blank" title="Republicans">
-                    <div class="node__shape node__shape--republican node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Republicans</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Political_parties_in_the_United_States" target="_blank" title="Non-partisan or multi-partisan">
-                    <div class="node__shape node__shape--grey node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Non-partisan or multi-partisan</div>
-                </a>
+    <div id="controls">
+        <label class="theme-toggle">
+            <input type="checkbox" id="themeToggle">
+            <span class="theme-toggle__icon"></span>
+        </label>
+        <input id="zoomSlider" type="range">
+    </div>
+    <div id="zoomZone">
+        <section id="title">American Political History (1775-2025)</section>
+        <section id="nodesLegend">
+            <div class="nodesLegend__line">
+                <h2>Colors:</h2>
+                <div class="nodesLegend__grid">
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Federalist_Party" target="_blank" title="Federalists">
+                        <div class="node__shape node__shape--federalist node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Federalists</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic-Republican_Party" target="_blank" title="Jeffersonians">
+                        <div class="node__shape node__shape--jeffersonian node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Jeffersonians</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Whig_Party_(United_States)" target="_blank" title="Whigs">
+                        <div class="node__shape node__shape--whig node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Whigs</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Democratic_Party_(United_States)" target="_blank" title="Democrats">
+                        <div class="node__shape node__shape--democrat node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Democrats</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Republican_Party_(United_States)" target="_blank" title="Republicans">
+                        <div class="node__shape node__shape--republican node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Republicans</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Political_parties_in_the_United_States" target="_blank" title="Non-partisan or multi-partisan">
+                        <div class="node__shape node__shape--grey node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Non-partisan or multi-partisan</div>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="nodesLegend__line">
-            <h2>Shapes:</h2>
-            <div class="nodesLegend__grid">
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Politics_of_the_United_States" target="_blank" title="Political Ideology">
-                    <div class="node__shape node__shape--grey node__shape--ideology"></div>
-                    <div class="nodeInfo__text">Political Ideology</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Historical_parties" target="_blank" title="Political Faction/Party">
-                    <div class="node__shape node__shape--grey node__shape--faction"></div>
-                    <div class="nodeInfo__text">Political Faction/Party</div>
-                </a>
-                <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Active_parties" target="_blank" title="Current (2025) Faction/Party">
-                    <div class="node__shape node__shape--grey node__shape--current"></div>
-                    <div class="nodeInfo__text">Current (2025) Faction/Party</div>
-                </a>
+            <div class="nodesLegend__line">
+                <h2>Shapes:</h2>
+                <div class="nodesLegend__grid">
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/Politics_of_the_United_States" target="_blank" title="Political Ideology">
+                        <div class="node__shape node__shape--grey node__shape--ideology"></div>
+                        <div class="nodeInfo__text">Political Ideology</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Historical_parties" target="_blank" title="Political Faction/Party">
+                        <div class="node__shape node__shape--grey node__shape--faction"></div>
+                        <div class="nodeInfo__text">Political Faction/Party</div>
+                    </a>
+                    <a class="nodeInfo" href="https://en.wikipedia.org/wiki/List_of_political_parties_in_the_United_States#Active_parties" target="_blank" title="Current (2025) Faction/Party">
+                        <div class="node__shape node__shape--grey node__shape--current"></div>
+                        <div class="nodeInfo__text">Current (2025) Faction/Party</div>
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="eventsLegend">
-        <h2>Approximate eras timeline</h2>
-        <a class="event" href="https://en.wikipedia.org/wiki/American_Revolutionary_War" target="_blank" title="The Revolutionary War">
-            <h2 class="event__text">The Revolutionary War</h2>
-            <img class="event__image" src="./assets/events/Revolutionary War.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/Second_Party_System" target="_blank" title="Second Party System">
-            <h2 class="event__text">Second Party System</h2>
-            <img class="event__image" src="./assets/events/Second Party System.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/American_Civil_War" target="_blank" title="The Civil War">
-            <h2 class="event__text">The Civil War</h2>
-            <img class="event__image" src="./assets/events/Civil War.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/Gilded_Age" target="_blank" title="The Gilded Age">
-            <h2 class="event__text">The Gilded Age</h2>
-            <img class="event__image" src="./assets/events/Gilded Age.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/New_Deal" target="_blank" title="The New Deal">
-            <h2 class="event__text">The New Deal</h2>
-            <img class="event__image" src="./assets/events/New Deal.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/Cold_War" target="_blank" title="The Cold War">
-            <h2 class="event__text">The Cold War</h2>
-            <img class="event__image" src="./assets/events/Cold War.jpg">
-        </a>
-        <a class="event" href="https://en.wikipedia.org/wiki/United_States" target="_blank" title="Contemporary America">
-            <h2 class="event__text">Contemporary America</h2>
-            <img class="event__image" src="./assets/events/Contemporary.jpg">
-        </a>
-    </section>
-    <section id="chart">
-    </section>
-    <svg id="arrows"></svg>
+        </section>
+        <section id="eventsLegend">
+            <h2>Approximate eras timeline</h2>
+            <a class="event" href="https://en.wikipedia.org/wiki/American_Revolutionary_War" target="_blank" title="The Revolutionary War">
+                <h2 class="event__text">The Revolutionary War</h2>
+                <img class="event__image" src="./assets/events/Revolutionary War.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/Second_Party_System" target="_blank" title="Second Party System">
+                <h2 class="event__text">Second Party System</h2>
+                <img class="event__image" src="./assets/events/Second Party System.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/American_Civil_War" target="_blank" title="The Civil War">
+                <h2 class="event__text">The Civil War</h2>
+                <img class="event__image" src="./assets/events/Civil War.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/Gilded_Age" target="_blank" title="The Gilded Age">
+                <h2 class="event__text">The Gilded Age</h2>
+                <img class="event__image" src="./assets/events/Gilded Age.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/New_Deal" target="_blank" title="The New Deal">
+                <h2 class="event__text">The New Deal</h2>
+                <img class="event__image" src="./assets/events/New Deal.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/Cold_War" target="_blank" title="The Cold War">
+                <h2 class="event__text">The Cold War</h2>
+                <img class="event__image" src="./assets/events/Cold War.jpg">
+            </a>
+            <a class="event" href="https://en.wikipedia.org/wiki/United_States" target="_blank" title="Contemporary America">
+                <h2 class="event__text">Contemporary America</h2>
+                <img class="event__image" src="./assets/events/Contemporary.jpg">
+            </a>
+        </section>
+        <section id="chart">
+        </section>
+        <svg id="arrows"></svg>
+    </div>
 </body>
 <script src="./script.js"></script>
 

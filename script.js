@@ -250,3 +250,25 @@ function renderArrows(data) {
         })
     })
 }
+const slider = document.getElementById("zoomSlider")
+const zoomZone = document.getElementById("zoomZone")
+const html = document.getElementById("html")
+slider.min = 50
+slider.max = 200
+slider.value = 100
+function applyZoom(value) {
+    zoomZone.style.zoom = value + "%"
+}
+slider.addEventListener("input", () => {
+    let raw = Number(slider.value)
+    if (raw > 100) {
+        raw = Math.round(raw / 10) * 10
+        html.style.width = "fit-content"
+    } else if (raw < 100) {
+        raw = Math.round(raw / 5) * 5
+        html.style.width = "1338px"
+    }
+    slider.value = raw
+    applyZoom(raw)
+})
+applyZoom(100)
