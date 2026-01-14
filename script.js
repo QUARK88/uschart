@@ -274,3 +274,5 @@ slider.addEventListener("input", () => {
     applyZoom(raw)
 })
 applyZoom(100)
+html.style.minWidth = "100%"
+html.style.maxWidth = "fit-content"
