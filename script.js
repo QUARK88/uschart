@@ -263,7 +263,7 @@ slider.addEventListener("input", () => {
     let raw = Number(slider.value)
     if (raw >= 100) {
         raw = Math.round(raw / 10) * 10
-        html.style.minWidth = "fit-content"
+        html.style.minWidth = "100%"
         html.style.maxWidth = "1450px"
     } else if (raw < 100) {
         raw = Math.round(raw / 5) * 5
@@ -273,5 +273,4 @@ slider.addEventListener("input", () => {
     slider.value = raw
     applyZoom(raw)
 })
-
 applyZoom(100)
