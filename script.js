@@ -264,7 +264,7 @@ slider.addEventListener("input", () => {
     if (raw > 100) {
         raw = Math.round(raw / 10) * 10
         html.style.minWidth = "100%"
-        html.style.maxWidth = ""
+        html.style.maxWidth = "2900px"
     } else if (raw < 100) {
         raw = Math.round(raw / 5) * 5
         html.style.minWidth = "100%"
