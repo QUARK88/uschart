@@ -43,6 +43,8 @@ html {
     align-items: start;
     justify-content: center;
     background-color: var(--bg);
+    width: 2900px;
+    max-width: fit-content;
 }
 
 #controls {
