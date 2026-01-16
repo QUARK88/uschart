@@ -98,7 +98,7 @@
         "dp",
         "https://en.wikipedia.org/wiki/Benjamin_Tillman",
         950,
-        1525,
+        1500,
         [
             [
                 "White Supremacist Populism",
@@ -180,8 +180,10 @@
                 "Evangelicalism",
                 "",
                 [
-                    400,
-                    1775
+                    500,
+                    1750,
+                    575,
+                    1500
                 ]
             ],
             [
@@ -241,7 +243,7 @@
         "df",
         "https://en.wikipedia.org/wiki/History_of_the_Democratic_Party_(United_States)#Foundation:_1820–1828",
         825,
-        925,
+        950,
         [
             [
                 "Constitutionalist States' Rightsism",
@@ -445,7 +447,7 @@
     ],
     "Hard Money Conservatism": [
         "ni",
-        "https://en.wikipedia.org/wiki/Gold_standard#In_the_United_States",
+        "https://en.wikipedia.org/wiki/Gold_standard#Post-Civil_War",
         500,
         1325,
         [
@@ -474,6 +476,10 @@
         825,
         1850,
         [
+            [
+                "Civil Rights Movement",
+                ""
+            ],
             [
                 "Modern American Liberalism",
                 ""
@@ -1061,8 +1067,8 @@
     "Redeemer Democrats": [
         "df",
         "https://en.wikipedia.org/wiki/Redeemers",
-        875,
-        1075,
+        775,
+        1125,
         [
             [
                 "Democratic Party",
@@ -1105,7 +1111,7 @@
         "rf",
         "https://en.wikipedia.org/wiki/History_of_the_Republican_Party_(United_States)#Beginnings:_1854–1861",
         425,
-        1025,
+        1050,
         [
             [
                 "Abolitionism/Free Soil",
@@ -1129,7 +1135,7 @@
         "ri",
         "https://en.wikipedia.org/wiki/Right-wing_populism#United_States",
         225,
-        2150,
+        2175,
         []
     ],
     "Ronald Reagan": [
@@ -1148,7 +1154,7 @@
         "rp",
         "https://en.wikipedia.org/wiki/Ron_Paul",
         175,
-        1975,
+        1950,
         [
             [
                 "Paleolibertarians",
@@ -1172,7 +1178,7 @@
         "rp",
         "https://en.wikipedia.org/wiki/Sarah_Palin",
         150,
-        2100,
+        2075,
         [
             [
                 "Tea Party Movement",
@@ -1202,7 +1208,7 @@
     "Socialism": [
         "ni",
         "https://en.wikipedia.org/wiki/Socialism_in_the_United_States",
-        1000,
+        975,
         1875,
         []
     ],
@@ -1210,7 +1216,7 @@
         "df",
         "https://en.wikipedia.org/wiki/Southern_Democrats#1861–1933",
         775,
-        1250,
+        1275,
         [
             [
                 "Redeemer Democrats",
@@ -1221,7 +1227,7 @@
     "Southern Secessionism": [
         "ni",
         "https://en.wikipedia.org/wiki/Secession_in_the_United_States#Seceded_states_form_the_Confederate_States_of_America",
-        675,
+        650,
         925,
         [
             [
@@ -1345,8 +1351,8 @@
     "Wade Hampton III": [
         "dp",
         "https://en.wikipedia.org/wiki/Wade_Hampton_III",
-        775,
-        1100,
+        875,
+        1150,
         [
             [
                 "Redeemer Democrats",
@@ -1360,6 +1366,16 @@
         775,
         1725,
         [
+            [
+                "Civil Rights Movement",
+                "",
+                [
+                    925,
+                    1900,
+                    875,
+                    1775
+                ]
+            ],
             [
                 "Laborism",
                 ""
