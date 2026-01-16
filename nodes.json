@@ -14,8 +14,8 @@
     "Alexander Hamilton": [
         "fp",
         "https://en.wikipedia.org/wiki/Alexander_Hamilton",
-        325,
-        475,
+        300,
+        450,
         [
             [
                 "Hamiltonianism",
@@ -35,8 +35,8 @@
     "''American System'' Clayism": [
         "wi",
         "https://en.wikipedia.org/wiki/American_System_(economic_plan)",
-        625,
         675,
+        650,
         [
             [
                 "Jeffersonian Republican Party",
@@ -66,8 +66,8 @@
     "Anti-Masonry": [
         "ni",
         "https://en.wikipedia.org/wiki/Anti-Masonry",
-        400,
-        700,
+        300,
+        725,
         [
             [
                 "Second Great Awakening",
@@ -97,8 +97,8 @@
     "Benjamin Tillman": [
         "dp",
         "https://en.wikipedia.org/wiki/Benjamin_Tillman",
-        875,
-        1500,
+        950,
+        1525,
         [
             [
                 "White Supremacist Populism",
@@ -217,6 +217,22 @@
         [
             [
                 "Jeffersonian Republican Party",
+                ""
+            ]
+        ]
+    ],
+    "Daniel Webster": [
+        "wp",
+        "https://en.wikipedia.org/wiki/Daniel_Webster",
+        275,
+        625,
+        [
+            [
+                "New England Statist Conservatism",
+                ""
+            ],
+            [
+                "Whig Party",
                 ""
             ]
         ]
@@ -370,8 +386,8 @@
     "George Wallace": [
         "dp",
         "https://en.wikipedia.org/wiki/George_Wallace",
-        975,
-        1600,
+        1000,
+        1650,
         [
             [
                 "Segregationists",
@@ -418,7 +434,7 @@
     "Hamiltonianism": [
         "fi",
         "https://en.wikipedia.org/wiki/Hamiltonian_economic_program",
-        400,
+        425,
         400,
         [
             [
@@ -439,8 +455,8 @@
     "Henry Clay": [
         "wp",
         "https://en.wikipedia.org/wiki/Henry_Clay",
-        525,
-        650,
+        500,
+        625,
         [
             [
                 "''American System'' Clayism",
@@ -477,6 +493,18 @@
                     875,
                     650
                 ]
+            ]
+        ]
+    ],
+    "James Weaver": [
+        "dp",
+        "https://en.wikipedia.org/wiki/James_B._Weaver",
+        875,
+        1300,
+        [
+            [
+                "Prairie Populism",
+                ""
             ]
         ]
     ],
@@ -559,8 +587,8 @@
     "Laborism": [
         "ni",
         "https://en.wikipedia.org/wiki/Labor_history_of_the_United_States",
-        875,
-        1725,
+        850,
+        1675,
         [
             [
                 "Socialism",
@@ -710,7 +738,7 @@
         "di",
         "https://en.wikipedia.org/wiki/Modern_liberalism_in_the_United_States",
         775,
-        2025,
+        2000,
         [
             [
                 "Civil Rights Movement",
@@ -807,9 +835,9 @@
     ],
     "New England Statist Conservatism": [
         "fi",
-        "https://en.wikipedia.org/wiki/Daniel_Webster",
-        425,
-        600,
+        "https://en.wikipedia.org/wiki/Traditionalist_conservatism_in_the_United_States#18th_century",
+        375,
+        575,
         [
             [
                 "Federalist Party",
@@ -930,7 +958,7 @@
     "Prairie Populism": [
         "ni",
         "https://en.wikipedia.org/wiki/Populist_Party_(United_States)",
-        925,
+        975,
         1375,
         [
             [
@@ -990,7 +1018,7 @@
     "Progressivism": [
         "ni",
         "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
-        575,
+        550,
         1400,
         [
             [
@@ -1174,14 +1202,14 @@
     "Socialism": [
         "ni",
         "https://en.wikipedia.org/wiki/Socialism_in_the_United_States",
-        950,
+        1000,
         1875,
         []
     ],
     "Southern Democrats": [
         "df",
-        "https://en.wikipedia.org/wiki/Southern_Democrats",
-        800,
+        "https://en.wikipedia.org/wiki/Southern_Democrats#1861–1933",
+        775,
         1250,
         [
             [
@@ -1326,6 +1354,18 @@
             ]
         ]
     ],
+    "Walter Reuther": [
+        "dp",
+        "https://en.wikipedia.org/wiki/Walter_Reuther",
+        775,
+        1725,
+        [
+            [
+                "Laborism",
+                ""
+            ]
+        ]
+    ],
     "Western Rural Progressivism": [
         "ri",
         "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
@@ -1368,8 +1408,8 @@
     ],
     "White Supremacist Populism": [
         "di",
-        "https://en.wikipedia.org/wiki/White_supremacy#Early_history",
-        750,
+        "https://en.wikipedia.org/wiki/White_supremacy_in_the_United_States",
+        775,
         1500,
         [
             [
@@ -1408,7 +1448,7 @@
     ],
     "Wilsonian Liberalism": [
         "di",
-        "https://en.wikipedia.org/wiki/Wilsonianism",
+        "https://en.wikipedia.org/wiki/The_New_Freedom",
         625,
         1575,
         [
