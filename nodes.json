@@ -662,7 +662,7 @@
     ],
     "MAGA": [
         "rc",
-        "https://en.wikipedia.org/wiki/Make_America_Great_Again",
+        "https://en.wikipedia.org/wiki/MAGA_movement",
         275,
         2250,
         [
@@ -1158,6 +1158,10 @@
         [
             [
                 "Paleolibertarians",
+                ""
+            ],
+            [
+                "Tea Party Movement",
                 ""
             ]
         ]
