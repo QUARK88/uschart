@@ -235,7 +235,7 @@ function renderArrows(data) {
             } else if (shapeType === "i") {
                 end = intersectCircle(approach.x, approach.y, x2, y2, 9)
                 end = pushPointForward(x2, y2, end.x, end.y, 12)
-            } else if (shapeType === "p") {
+            } else if (shapeType === "f") {
                 end = intersectSquare(approach.x, approach.y, x2, y2, 9)
                 end = pushPointForward(x2, y2, end.x, end.y, 12)
             } else {
