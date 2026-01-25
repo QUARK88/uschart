@@ -159,6 +159,18 @@ function intersectRect(x1, y1, x2, y2, halfW, halfH) {
         y: y2 - dy * t
     }
 }
+function intersectDiamond(x1, y1, x2, y2, half) {
+    const dx = x2 - x1
+    const dy = y2 - y1
+    const adx = Math.abs(dx)
+    const ady = Math.abs(dy)
+    const denom = adx + ady || 1
+    const t = half / denom
+    return {
+        x: x2 - dx * t,
+        y: y2 - dy * t
+    }
+}
 function buildPath(points) {
     return points
         .map((p, i) => `${i === 0 ? "M" : "L"}${p.x},${p.y}`)
@@ -223,8 +235,11 @@ function renderArrows(data) {
             } else if (shapeType === "i") {
                 end = intersectCircle(approach.x, approach.y, x2, y2, 9)
                 end = pushPointForward(x2, y2, end.x, end.y, 12)
-            } else {
+            } else if (shapeType === "p") {
                 end = intersectSquare(approach.x, approach.y, x2, y2, 9)
+                end = pushPointForward(x2, y2, end.x, end.y, 12)
+            } else {
+                end = intersectDiamond(approach.x, approach.y, x2, y2, 9)
                 end = pushPointForward(x2, y2, end.x, end.y, 12)
             }
             points.push(end)

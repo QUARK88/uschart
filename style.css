@@ -284,8 +284,9 @@ html {
 }
 
 .node__shape--current {
-    border: solid 4px var(--fg);
-    border-radius: 8px;
+    border: solid 2px var(--fg);
+    border-radius: 4px;
+    transform: translate(-50%, -50%) rotate(45deg) !important;
 }
 
 .portrait__text {
