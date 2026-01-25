@@ -222,10 +222,10 @@ function renderArrows(data) {
                 end = pushPointForward(approach.x, approach.y, end.x, end.y, 4)
             } else if (shapeType === "i") {
                 end = intersectCircle(approach.x, approach.y, x2, y2, 9)
-                end = pushPointForward(x2, y2, end.x, end.y, 6)
+                end = pushPointForward(x2, y2, end.x, end.y, 12)
             } else {
                 end = intersectSquare(approach.x, approach.y, x2, y2, 9)
-                end = pushPointForward(x2, y2, end.x, end.y, 6)
+                end = pushPointForward(x2, y2, end.x, end.y, 12)
             }
             points.push(end)
             const path = document.createElementNS("http://www.w3.org/2000/svg", "path")

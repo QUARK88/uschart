@@ -225,7 +225,7 @@
         "df",
         "https://en.wikipedia.org/wiki/History_of_the_Democratic_Party_(United_States)#Foundation:_1820–1828",
         825,
-        950,
+        925,
         [
             [
                 "Constitutionalist States' Rightsism"
@@ -285,7 +285,7 @@
         "np",
         "https://en.wikipedia.org/wiki/Edmund_Ruffin",
         525,
-        900,
+        925,
         [
             [
                 "Southern Secessionism"
@@ -776,7 +776,7 @@
                 "Federalist Party",
                 "Federalist Remnants",
                 [
-                    475,
+                    450,
                     475
                 ]
             ],
@@ -885,7 +885,12 @@
         1375,
         [
             [
-                "Jacksonian Agrarian Populism"
+                "Jacksonian Agrarian Populism",
+                "",
+                [
+                    975,
+                    1000
+                ]
             ]
         ]
     ],
@@ -934,7 +939,7 @@
     "Progressivism": [
         "ni",
         "https://en.wikipedia.org/wiki/Progressivism_in_the_United_States#20th_century:_Progressive_Era",
-        550,
+        575,
         1400,
         [
             [

@@ -141,7 +141,7 @@ html {
 #nodesLegend {
     position: absolute;
     top: 144px;
-    left: 416px;
+    left: 352px;
     height: fit-content;
     width: fit-content;
     display: flex;
@@ -165,7 +165,7 @@ html {
 .nodesLegend__grid {
     display: grid;
     grid-template-columns: repeat(3, 160px);
-    gap: 8px 0;
+    gap: 8px;
 }
 
 .nodeInfo {
@@ -174,7 +174,6 @@ html {
     align-items: center;
     justify-content: start;
     gap: 8px;
-    width: 148px;
 }
 
 .nodeInfo__text {
@@ -240,8 +239,8 @@ html {
 
 .node__shape {
     display: block;
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     z-index: 2;
 }
 
@@ -281,7 +280,7 @@ html {
 
 .node__shape--faction {
     border: solid 2px var(--fg);
-    border-radius: 0.01px;
+    border-radius: 4px;
 }
 
 .node__shape--current {
