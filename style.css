@@ -138,6 +138,30 @@ html {
     width: fit-content;
 }
 
+#relatedSites {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 192px;
+    position: absolute;
+    top: 160px;
+    left: 32px;
+    font-size: 24px;
+    z-index: 2;
+}
+
+.relatedSite {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 48px;
+    text-align: left;
+}
+
+.relatedSite__icon {
+    height: 100%;
+}
+
 #nodesLegend {
     position: absolute;
     top: 144px;
