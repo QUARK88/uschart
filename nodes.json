@@ -13,7 +13,7 @@
     "Alexander Hamilton": [
         "fp",
         "https://en.wikipedia.org/wiki/Alexander_Hamilton",
-        300,
+        325,
         450,
         [
             [
@@ -91,7 +91,7 @@
     "Benjamin Tillman": [
         "dp",
         "https://en.wikipedia.org/wiki/Benjamin_Tillman",
-        950,
+        900,
         1500,
         [
             [
@@ -102,7 +102,7 @@
     "Bernie Sanders": [
         "dp",
         "https://en.wikipedia.org/wiki/Bernie_Sanders",
-        1075,
+        1025,
         2275,
         [
             [
@@ -116,7 +116,7 @@
     "Bill Clinton": [
         "dp",
         "https://en.wikipedia.org/wiki/Bill_Clinton",
-        650,
+        675,
         2275,
         [
             [
@@ -704,7 +704,7 @@
     "Nancy Pelosi": [
         "dp",
         "https://en.wikipedia.org/wiki/Nancy_Pelosi",
-        950,
+        875,
         2275,
         [
             [
@@ -1079,7 +1079,7 @@
     "Sarah Palin": [
         "rp",
         "https://en.wikipedia.org/wiki/Sarah_Palin",
-        150,
+        175,
         2075,
         [
             [
