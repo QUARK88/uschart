@@ -25,10 +25,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Nativism_in_United_States_politics",
         350,
-        775,
-        [
-            []
-        ]
+        775
     ],
     "''American System'' Clayism": [
         "wi",
@@ -56,8 +53,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Anti-communism#United_States",
         575,
-        1775,
-        []
+        1775
     ],
     "Anti-Masonry": [
         "ni",
@@ -74,8 +70,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Spoils_system#Reform",
         575,
-        1075,
-        []
+        1075
     ],
     "Barry Goldwater": [
         "rp",
@@ -193,8 +188,7 @@
         "nf",
         "https://en.wikipedia.org/wiki/Civil_rights_movement",
         850,
-        1950,
-        []
+        1950
     ],
     "Constitutionalist States' Rightsism": [
         "ni",
@@ -413,10 +407,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Gold_standard#Post-Civil_War",
         500,
-        1325,
-        [
-            []
-        ]
+        1325
     ],
     "Henry Clay": [
         "wp",
@@ -586,15 +577,13 @@
         "ri",
         "https://en.wikipedia.org/wiki/Lily-white_movement",
         175,
-        1500,
-        []
+        1500
     ],
     "Lockean Anglo-Liberalism": [
         "ni",
         "https://en.wikipedia.org/wiki/Classical_liberalism#United_States",
         675,
-        350,
-        []
+        350
     ],
     "Louis Brandeis": [
         "dp",
@@ -734,8 +723,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Neoliberalism#United_States",
         575,
-        2200,
-        []
+        2200
     ],
     "New Deal Coalition": [
         "df",
@@ -954,8 +942,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Radicalism_in_the_United_States",
         850,
-        350,
-        []
+        350
     ],
     "Radical Republicans": [
         "rf",
@@ -1009,8 +996,7 @@
         "fi",
         "https://en.wikipedia.org/wiki/Loyalist_(American_Revolution)",
         600,
-        400,
-        []
+        400
     ],
     "Republican Party": [
         "rf",
@@ -1037,8 +1023,7 @@
         "ri",
         "https://en.wikipedia.org/wiki/Right-wing_populism#United_States",
         225,
-        2175,
-        []
+        2175
     ],
     "Ronald Reagan": [
         "rp",
@@ -1091,8 +1076,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Second_Great_Awakening",
         200,
-        800,
-        []
+        800
     ],
     "Segregationists": [
         "df",
@@ -1109,8 +1093,7 @@
         "ni",
         "https://en.wikipedia.org/wiki/Socialism_in_the_United_States",
         975,
-        1875,
-        []
+        1875
     ],
     "Southern Democrats": [
         "df",
