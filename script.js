@@ -33,6 +33,7 @@ function renderNodes(data) {
         const types = []
         const isPortrait = type[1] === "p"
         const shape = document.createElement("a")
+        shape.draggable = false
         shape.classList.add(isPortrait ? "portrait__shape" : "node__shape")
         switch (type[0]) {
             case "f": shape.classList.add(isPortrait ? "portrait__shape--federalist" : "node__shape--federalist"); types.push("Federalist"); break
@@ -61,6 +62,7 @@ function renderNodes(data) {
         text.className = isPortrait ? "portrait__text" : "node__text"
         text.textContent = name
         text.title = title
+        text.draggable = false
         if (node[URL]) {
             text.href = node[URL]
             text.target = "_blank"
